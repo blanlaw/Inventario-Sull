@@ -1,0 +1,13 @@
+reconfigure la red para que el trafico vaya de red de la izquierda a derecha
+
+r1,r2,r4,r3,r5,r6,r7,r8,e0
+retorno r7,r6,r4,r2,r1
+r8,r7,r6,r4,r2,r1,e0
+
+
+distancia administrativa
+r5,r6 1ra confiabilidad y si cae ese enlace se va 
+r5,r7 solo si se cae el 1ro 
+
+
+1:48:52

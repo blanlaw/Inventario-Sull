@@ -1,0 +1,7 @@
+procesos
+
+entro al link me redirecciona a lo de google
+el google me manda a el backend yo hago la peticion para el token 
+tengo el token en un dto se lo paso el frontend con el refresh token
+el guarda el refresh token ,yo verifico si pasa su token bien sino refresheo su token le paso uno nuevo 
+con el refresh token que siempre me debe pasar .

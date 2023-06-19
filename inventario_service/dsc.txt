@@ -1,0 +1,23 @@
+proveedor/empresa que le provee el producto o si es otro inventario solo poner inventario xd
+tipo de comprobante / tipo de comprobante que entra a la empresa 
+numero comprobante--si entra o compra
+numero de orden de compra--solo si compra
+vale ingreso--codigo de vale de ingreso
+entregado por -empleado que le entrega el producto/empresa que le entrega el producto
+recibido por -empleado que recibe el producto
+programa -fecha
+
+area solicitante/area que solicita
+area destino/area a la que va
+entreado por/empleado que entrega el producto
+ordenado /empleado que hace el requerimiento
+recibido por /empleado que recibe el producto osea en la entrada el que lo recibe
+numero de requerimiento/numero de req
+destinatario/jefe que recepciona el requerimiento
+up/area a la que va
+destino/destino dentro del area
+equipo/ninguno
+placa /modelo  /auto
+empresa/empresa a la que se le envia el producto
+vale de salida/combustible 
+programa

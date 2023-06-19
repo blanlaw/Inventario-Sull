@@ -1,0 +1,54 @@
+zuul:
+  sensitiveHeaders:
+  host:
+    socketTimeoutMillis: 1000000
+    connect-timeout-millis: 90000
+  routes:
+    inventario-service:
+      path: /inventario/**
+      serviceId: inventario-service
+    inventario-service-movil:
+      path: /api/inventario/**
+      serviceId: inventario-service
+eureka:
+  client:
+    serviceUrl:
+      non-secure-port: 80
+      secure-port: 443
+    fetch-registry: true
+    register-with-eureka: true
+spring:
+  cloud:
+    discovery:
+      enabled: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  application:
+    name: gateway
+
+oauth:
+  redirectUrl: http://localhost:7890/oauth/token
+  clientId: 583458414138-ktvu19p22476kqobfauu66r5olulppjg.apps.googleusercontent.com
+  clientmovil: 583458414138-1fd08todv16pmmeihij9odmr2a17ldje.apps.googleusercontent.com
+  clientSecret: 9uRBwd3Io3EBuq7ivbyFBTeS
+  checkTokenUrl: https://www.googleapis.com/oauth2/v3/tokeninfo?access_token=
+  userInfoUrl: https://people.googleapis.com/v1/people/me?personFields=userDefined
+
+
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 600000
+        timeout:
+          enabled: false
+
+
+

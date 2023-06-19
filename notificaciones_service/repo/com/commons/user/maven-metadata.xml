@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.commons</groupId>
+  <artifactId>user</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.23-SNAPSHOT</version>
+      <version>0.0.26-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210115023405</lastUpdated>
+  </versioning>
+</metadata>

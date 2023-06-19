@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekadiscover/eurekadiscover.iml" filepath="$PROJECT_DIR$/eurekadiscover/eurekadiscover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventario_service/inventario_service.iml" filepath="$PROJECT_DIR$/inventario_service/inventario_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notificaciones_service/notificaciones_service.iml" filepath="$PROJECT_DIR$/notificaciones_service/notificaciones_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product_service/product_service.iml" filepath="$PROJECT_DIR$/product_service/product_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sull.iml" filepath="$PROJECT_DIR$/.idea/sull.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_commons/user_commons.iml" filepath="$PROJECT_DIR$/user_commons/user_commons.iml" />
+    </modules>
+  </component>
+</project>
