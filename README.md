@@ -1,2 +1,2 @@
-# Grupo10_inventario
+# inventory alokate
 inventario web
